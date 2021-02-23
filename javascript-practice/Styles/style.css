@@ -11,7 +11,7 @@ body{
 .container{
     padding: 20px;
     overflow: hidden;
-    background-color:hotpink;
+    background-color:lightskyblue;
 
     
     
@@ -19,7 +19,7 @@ body{
 .container h1{
     float: left;
     margin-left: 10%;
-    color:indigo
+    color:white;
 }
 .container ul{
     list-style-type: none;
