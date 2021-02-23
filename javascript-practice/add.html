@@ -6,17 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">   
-    <link rel="stylesheet" href="C:\Users\Zhouling\Desktop\javascript-practice\Styles\style.css">
+    <link rel="stylesheet" href="../Styles/style.css">
+
+    <script src = "https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src = "https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+    <script src = "https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+    
+    <script src = "../Scripts/firebaseform.js"></script>
+
     <title>Add</title>
 </head>
 <body>
     
     <header>
         <div class="container">
-            <h1>Math 4 KIDS</h1>
+            <h1>VOYAGER</h1>
             <ul>
                 <li class="current"><a href="add.html">Add</a></li>
                 <li><a href="substract.html">Substract</a></li>
+                <button onclick="signOut()" id = "signOut"> Sign Out </button>
             </ul>
 
 
@@ -24,6 +32,7 @@
     </header>
     <div class="wrapper">
         <div class="equation">
+            
             <h1 id="num1" style=color:brown>1</h1>
             <h1 style=color:cadetblue>+</h1>
             <h1 id="num2" style=color:coral>1</h1>
@@ -43,6 +52,6 @@
         </div>
 
     </div>
-    <Script src="C:\Users\Zhouling\Desktop\javascript-practice\Scripts\add.js"></Script>
+    <Script src="../Styles/style.css"></Script>
 </body>
 </html>
