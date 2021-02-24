@@ -21,6 +21,7 @@ body{
     margin-left: 10%;
     color:indigo
 }
+
 .container ul{
     list-style-type: none;
     font-size: 20px;
@@ -32,7 +33,7 @@ body{
 
 .container a{
     text-decoration: none;
-    color:whitesmoke;
+    color:blue;
 }
 
 .current a::after{
@@ -44,9 +45,12 @@ body{
 
 }
 .wrapper{
-   display: grid; 
+    background-color:blue;
+    display: grid; 
    grid-template-columns: 82% 18%;
 }
+
+
 
 .equation{
     font-size: 65px;

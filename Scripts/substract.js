@@ -44,19 +44,46 @@ for(x=allAnswers.length;x--;){
 
 }//end for
 
+for(x=switchAnswers.length;x--;){
+
+
+}
+
 option1.innerHTML=switchAnswers[0];
 option2.innerHTML=switchAnswers[1];
 option3.innerHTML=switchAnswers[2];
 option4.innerHTML=switchAnswers[3];
 
+
+
+
+
 }//end function
 
+function reset() {
+	var elements = document.getElementsByClassName('equation'); // get all elements
+	for(var i = 0; i < elements.length; i++){
+		elements[i].style.backgroundColor = "Red";
+    }
+}
+
+function originalColor() {
+        var elements = document.getElementsByClassName('equation'); // get all elements
+        for(var i = 0; i < elements.length; i++){
+            elements[i].style.backgroundColor = "Green";
+        }
+}
+  
 option1.addEventListener("click", function(){
     if(option1.innerHTML==answer){
+        originalColor();
         generate_equation();
     }
     else{
+        reset();
+        alert("correct answer should be "+answer);
         generate_equation();
+
 
     }
 })
@@ -65,9 +92,12 @@ option1.addEventListener("click", function(){
 
 option2.addEventListener("click", function(){
     if(option2.innerHTML==answer){
+        originalColor();
         generate_equation();
     }
     else{
+        reset();
+        alert("correct answer should be "+answer);
         generate_equation();
 
     }
@@ -75,22 +105,30 @@ option2.addEventListener("click", function(){
 
 option3.addEventListener("click", function(){
     if(option3.innerHTML==answer){
+        originalColor();
         generate_equation();
+        
     }
     else{
+        reset();
+        alert("correct answer should be "+answer);
         generate_equation();
     }
 })
 
 option4.addEventListener("click", function(){
     if(option4.innerHTML==answer){
+        originalColor();
         generate_equation();
+
     }
     else{
+        reset();
+        alert("correct answer should be "+ answer);
         generate_equation();
 
     
     }
 })
-
+originalColor();
 generate_equation();
