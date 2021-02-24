@@ -1,7 +1,9 @@
 /* changes any tag in the body section */
 body {
     text-align: center;
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/pirate2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
     
 }
 
