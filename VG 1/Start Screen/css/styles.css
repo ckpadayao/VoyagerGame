@@ -1,0 +1,66 @@
+/* changes any tag in the body section */
+body {
+    text-align: center;
+    background-image: url("../images/pirate2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
+    
+}
+
+/* changes any class with title in it */
+.title {
+    font-size: 5rem;
+    color: lightskyblue;
+    font-family: "Arvo", cursive;
+    text-shadow: 5px 0 white;
+
+    /* margin and padding are different, don't know how to explain them though */
+    margin-top: 125px;
+}
+
+/* i looked most of this up */
+/* I ain't no wizard */
+.student {
+    display: block;
+    width: 30%;
+    margin-left: 35%;
+    padding: 14px 20px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+}
+
+/* allows to change whatever you want when the mouse hovers over the tag */
+.student:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.teacher {
+    display: block;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 35%;
+    padding: 14px 20px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+}
+
+.teacher:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+footer {
+    margin-top: 23%;
+    font-family: 'Luckiest Guy';
+}
+
+
