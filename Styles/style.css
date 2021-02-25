@@ -5,13 +5,13 @@ margin: 0;
 
 body{
     font-family: 'Lukiest Guy';
-    background-color:burlywood;
+    background-color:purple;
 }
 
 .container{
     padding: 20px;
     overflow: hidden;
-    background-color:lightskyblue;
+    background-color:hotpink;
 
     
     
@@ -19,7 +19,7 @@ body{
 .container h1{
     float: left;
     margin-left: 10%;
-    color:white;
+    color:indigo
 }
 .container ul{
     list-style-type: none;
