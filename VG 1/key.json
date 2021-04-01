@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "voyagergame-d0974",
+  "private_key_id": "5c1d444a88bc8e8f030e1fe01cab28f13870d2bf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDf1jFD4xNsw9OL\nouHW4vg2QhMGUT3a8UxhF8hRTEtkZ4I2Gfwr9mskzBrUTEPQJvlKLsN7QFnI+D8k\nca5VHSoCB1Uap7n9U+7wGju6Js+nk2fUuZ8PzmbzGeKDeXwoZzdx/9rV9dwOweFN\nMVo6mcFTEHkVwx1jA6WWcS3PJqovQSKHR8UTLa38rgTX+dkm19CBtnzVh7YOdXuj\nKUYK0VAWBmDA2iPo+RhQishLkyzoyAyS0R9WKZ8nPoQshMvcXuUc/6RfiP/KRRpX\nMxe9fiWZ/rC8n+zXE/a8JRHQXAfbBvMhGUPW4dpdPbaW/6pLPVEY2V1Pi2taxBtw\n5xEhBN+/AgMBAAECggEAF/BPaoRBkpNK75cm8hVqGFtur3FG3UCLO6MQgGlZcs6D\nJYgX6Re8k73kbKoPYpaYeK+Rpn/WWmD6V8p0q5On53mjR2uCv64XUsRreNgnwzNH\nmn+TnFwltIAjMo5ukd+gFWgYnmNh+o4Pq3LIxJWnEFwlpwcsAGfmcLWAAbSP5Oeu\nNlcFEf9wYpc9Tt7XRffHBa9JHEuS4QpqrW57hWOS2luKJ12RapnAbAOJF36BK4wY\nRr3LhGJVtuIwCINqveFcFLu+MjgXHqNXuZLASjLHCl55Lgq3wDs9Z8LAgbcrfOzP\nLzMT7vvd7rG+WZTlB+uKp+Lo979u5CBNL/r9Ccp/sQKBgQDxa8gjvkxeQTkByetM\nxxkPhn0o/0RDnjZMmLBCAcOhwueRN4MELsJw2WXMHyjRX0VNtui231UA/8bKbjYz\nODl2pV6dkt3CYaOAVxkbgWN+/y4u/AfUCmByaQvJ9VA+V1SMzYWl9AeElVL10JiC\nTRJtG4xfpNWGiTYzMwBQlVG4xwKBgQDtWpFduWB5xVUX3q3c4YPEZdPet+L6wwl3\ncB1N9zCENui8XVaoNpK7RS44zZN/EtVCwT4Man2c54RUXMUukDM9OpphtdSlcLkJ\neeSqIS7gaumBjQZ7PCNCLcPXFmj9fDwqf8L77zSXEPD15/8ctqsSB/tT1y7EN+OL\nrbJECrZZSQKBgBCVjNwXuHtJE7dxvX46txf/7x0f2/qhJa3BV2pRYLT+BJZPL+rb\no3PJG1sYUN+BIeuiwv28/cPhzjAdvg9qr1fdKFC+xAkUV/z6/riK/OC+etezbH4+\ncD2rxamL9oUxzpcVjzbFOrb64wYL3E4nKTrhh5USZ7CkQFroB/+BImoFAoGAZFL0\nwK3bZn0PQ6Ce0o8LuBbmX+xP53hK5w4fhNXnzuq6ouu89irjCH7sU5wpLPwT4jx1\n8p+Maqa9Gz9/JPhUgBvmJ0jJEgi8XZIFIhgWjUsDWfv28l3v9UgM0DwrsoExmTEZ\nhI2OKBBEGVyvSz62vk9bXwvEO7H33xFTGUmB2+kCgYEA8QmHogPpcIIIXZbCwQYH\nx2mcreuMAGBtUqJ+04KVQoXcmY4uvvtW/l04X4YkkycMJRgyCcSFvhvrgoKOvW0N\nwc4YNFx0bXf6gwcsTREZWY53o7vhXO2U2qhWXm6k1gRJVCLjz+eqlVDkBNc93R3y\nD0aR3ZhtwZWBihCBitYfxMI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-xkeo0@voyagergame-d0974.iam.gserviceaccount.com",
+  "client_id": "103296862215689309412",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-xkeo0%40voyagergame-d0974.iam.gserviceaccount.com"
+}
