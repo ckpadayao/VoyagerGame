@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">   
+
+    <link rel="stylesheet" href="../HTML/Styles/style.css">
+    <title>Substract</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+
+            <h1>VOYAGER</h1>
+            <ul>
+                <li><a href="add.html">Add</a></li>
+                <li class="current"><a href="substract.html">Substract</a></li>
+                <button onclick="signOut()" id = "signOut"> Sign Out </button>
+            </ul>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="equation">
+            <h1 id="num1" style=color:brown>1</h1>
+            <h1 style=color:cadetblue>-</h1>
+            <h1 id="num2" style=color:coral>1</h1>
+            <h1 style=color:darkgray>=</h1>
+            <h1 style=color:firebrick>?</h1>
+
+        </div>
+        <div class="answer-options">
+            <h1 id="option1">1</h1>
+            <h1 id="option2">2</h1>
+            <h1 id="option3">3</h1>
+            <h1 id="option4">4</h1>
+
+
+
+
+        </div>
+
+    </div>
+
+    <!-- Firebase SDKs must be implemented to use Firebase -->
+    <script src = "https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src = "https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+    <script src = "https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+
+    <!-- JS Scripts -->
+    <Script src="../HTML/Scripts/substract.js"></Script>
+    <script src = "../HTML/Scripts/studentLogin.js"></script>
+</body>
+</html>

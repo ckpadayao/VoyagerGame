@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">   
+  
+  <title>Voyager - Home</title>
+
+  <link rel="stylesheet" href="./static/indexStyle.css" />
+
+</head>
+<body>
+   <main> 
+     <h1 class = "title">VOYAGER</h1>
+
+     <form > 
+      <!-- <a href = "/login" class="btn"><button class="student btn" id = "student">Students</button></a> -->
+      <a class="btn"><button class="student btn" id = "student">Students</button></a>
+      <a class="btn"><button class="teacher btn" id = "teacher">Teachers</button></a>
+
+      <script>
+          document.getElementById("student").addEventListener( "click", (e) => { 
+            e.preventDefault();
+            window.location.assign("/login");
+          });
+
+          document.getElementById("teacher").addEventListener( "click", (e) => { 
+            e.preventDefault();
+            window.location.assign("/teacherLogin");
+          });
+      </script>
+
+     </form>
+   </main>
+</body>
+   <footer>
+    Made with ❤️ by Boba Squad.
+  </footer>
+
+</html>

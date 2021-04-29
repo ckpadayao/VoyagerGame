@@ -1,0 +1,215 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+.scoreDisplay {
+    width:25%;
+    height:25%;
+    font-size: 20px;
+    left: 0.7%;
+    top: 21.3%;
+    position: absolute;
+}
+
+#scoreDisplay {
+    border-radius: 35px 35px 35px 35px;
+    /* letter-spacing: 40%; */
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 15px;
+    background-color:lightskyblue;
+
+}
+
+body{
+    font-family: 'Luckiest Guy'; 
+    background-color:lightskyblue;
+}
+
+.container{
+    padding: 20px;
+    overflow: hidden;
+    background-color:lightskyblue; 
+}
+
+.container h1{
+    letter-spacing: 3px;
+    font-size: 65px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+    color:white;
+    text-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.container ul{
+    letter-spacing: 3px;
+    list-style-type: none;
+    font-size: 30px;
+    margin-left: 90%;
+    text-align: right;
+}
+
+.container li{
+   color: white;
+}
+
+.container a{
+    text-decoration: none;
+    color:whitesmoke;
+    cursor: pointer;
+}
+
+.current a::after{
+    content: '_';
+    background-color:white;
+    font-size: 4px;
+    display: block;
+
+}
+.wrapper{
+   display: grid; 
+   grid-template-columns: 82% 18%;
+}
+
+.equation{
+    background-image: url("../static/addSubtract-02.png");
+    background-position: 10%;
+
+    
+    font-size: 90px;
+    background-color: white;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 15%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.equation h1{
+    display: inline;
+    padding: 20px;
+}
+
+.answer-options{
+    
+    font-size: 67px;
+    margin-right: 10px;
+
+}
+.answer-options h1{
+    /* border-radius: 45px 45px 45px 45px; */
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    color: white;
+
+}
+
+.modal-image {
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+    background-size: cover;
+}
+
+#option1{
+    border-radius: 25px 25px 25px 25px;
+    background-color: tomato;
+    transition: 1s;
+}
+
+#option1 :hover{
+    color: tomato;
+    background-color:white;
+    
+}
+
+#option2{
+    border-radius: 25px 25px 25px 25px;
+    background-color:turquoise;
+    transition: 1s;
+}
+
+#option2 :hover{
+    color:turquoise;
+    background-color:white;
+    
+}
+
+
+#option3{
+    border-radius: 25px 25px 25px 25px;
+    background-color: yellowgreen;
+    transition: 1s;
+}
+
+#option3 :hover{
+    color:yellowgreen;
+    background-color:white;
+    
+}
+
+#option4{
+    border-radius: 25px 25px 25px 25px;
+    background-color:violet;
+    transition: 1s;
+}
+
+#option4 :hover{
+    color:violet;
+    background-color:white;
+    
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+  
+  /* Modal Content */
+.modal-content {
+    border-radius: 25px 25px 25px 25px;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    text-align: center;
+    font-size: 60px;
+}
+  
+  /* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
